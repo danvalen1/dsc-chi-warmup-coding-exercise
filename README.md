@@ -1,10 +1,9 @@
-
 # Coding Exercises
 
-As a warmup for today, here are a few coding problems. Each problem is more difficult than the one before. 
+Here are a few coding problems. Each problem is more difficult than the one before. 
 
 You are not expected to complete all of these problems this morning. Feel free to 
-use this notebook as a resource for flexing your coding muscles whenever you need a break from the math of Mod 2. If you complete all of the problems and would like more to solve, check out [Code Wars](https://www.codewars.com). 
+use this notebook as a resource for flexing your coding muscles whenever you need a break! If you complete all of the problems and would like more to solve, check out [Code Wars](https://www.codewars.com). 
 
 For each section, a prompt is provided as well as an empty function. 
 
@@ -36,7 +35,7 @@ def assert_equals(pred,test):
 
 # Array.diff
 
-Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+Your goal is to implement a difference function, which subtracts one list from another and returns the result.
 
 It should remove all values from list a, which are present in list b.
 
@@ -295,7 +294,7 @@ assert_equals(first_dup('1a2b3a3c'), 'a');
 
 # Count letters in string
 
-In this kata, you've to count lowercase letters in a given string and return the letter count in a hash with 'letter' as key and count as 'value'. The key must be 'symbol' instead of string in Ruby and 'char' instead of string in Crystal.
+You are asked to count lowercase letters in a given string and return the letter count in a dictionary with 'letter' as key and count as 'value'.
 
 **Example:**
 
@@ -348,7 +347,7 @@ assert_equals(letter_count("daydreamer"), {"a": 2, "d": 2, "e": 2, "m": 1, "r": 
 
 # Sum of Digits / Digital Root
 
-In this kata, you must create a digital root function.
+Create a digital root function.
 
 A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. This is only applicable to the natural numbers.
 
